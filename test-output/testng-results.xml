@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[This is information]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-16T15:19:24 IST" name="Suite" finished-at="2023-06-16T15:19:24 IST" duration-ms="92">
+    <groups>
+      <group name="unit1">
+        <method signature="Basic.B()[pri:-4, instance:TestNGPrograms.Basic@4afcd809]" name="B" class="TestNGPrograms.Basic"/>
+        <method signature="Basic.C()[pri:6, instance:TestNGPrograms.Basic@4afcd809]" name="C" class="TestNGPrograms.Basic"/>
+      </group> <!-- unit1 -->
+    </groups>
+    <test started-at="2023-06-16T15:19:24 IST" name="Test" finished-at="2023-06-16T15:19:24 IST" duration-ms="92">
+      <class name="TestNGPrograms.Basic">
+        <test-method is-config="true" signature="bs()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="bs" finished-at="2023-06-16T15:19:24 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="bt" finished-at="2023-06-16T15:19:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="bc()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="bc" finished-at="2023-06-16T15:19:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="bm" finished-at="2023-06-16T15:19:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="bm" finished-at="2023-06-16T15:19:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="B()[pri:-4, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="B" finished-at="2023-06-16T15:19:24 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+        <test-method signature="C()[pri:6, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="C" finished-at="2023-06-16T15:19:24 IST" duration-ms="18" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at TestNGPrograms.Basic.C(Basic.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[This is information]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- C -->
+        <test-method is-config="true" signature="am()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="am" finished-at="2023-06-16T15:19:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="bm" finished-at="2023-06-16T15:19:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="B()[pri:-4, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="B" finished-at="2023-06-16T15:19:24 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+        <test-method is-config="true" signature="am()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="am" finished-at="2023-06-16T15:19:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="am()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="am" finished-at="2023-06-16T15:19:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method signature="A()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="A" depends-on-groups="unit1" finished-at="2023-06-16T15:19:24 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Basic.A()[pri:0, instance:TestNGPrograms.Basic@4afcd809] depends on not successfully finished methods in group "unit1"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Basic.A()[pri:0, instance:TestNGPrograms.Basic@4afcd809] depends on not successfully finished methods in group "unit1"
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="ac" finished-at="2023-06-16T15:19:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="at" finished-at="2023-06-16T15:19:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method is-config="true" signature="as()[pri:0, instance:TestNGPrograms.Basic@4afcd809]" started-at="2023-06-16T15:19:24 IST" name="as" finished-at="2023-06-16T15:19:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- TestNGPrograms.Basic -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
